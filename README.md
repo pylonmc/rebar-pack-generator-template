@@ -21,4 +21,4 @@ If you think you're up for the task of using block states for custom block model
 
 # Usage
 
-Refer to the [Wiki]() for detailed instructions on how you can use the pack generator!
+Refer to the [Wiki](https://github.com/pylonmc/rebar-pack-generator-template/wiki) for detailed instructions on how you can use the pack generator!
