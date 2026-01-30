@@ -1,0 +1,338 @@
+{
+  "when": "pylonbase:manual_core_drill_lever",
+  "model": {
+    "type": "minecraft:select",
+    "property": "custom_model_data",
+    "index": 1,
+    "cases": [
+      {
+        "when": "facing=east",
+        "model": {
+          "type": "minecraft:select",
+          "property": "custom_model_data",
+          "index": 2,
+          "cases": [
+            {
+              "when": "face=ceiling",
+              "model": {
+                "type": "minecraft:select",
+                "property": "custom_model_data",
+                "index": 3,
+                "cases": [
+                  {
+                    "when": "powered=false",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_x180_y270"
+                    }
+                  },
+                  {
+                    "when": "powered=true",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_on_x180_y270"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "when": "face=floor",
+              "model": {
+                "type": "minecraft:select",
+                "property": "custom_model_data",
+                "index": 3,
+                "cases": [
+                  {
+                    "when": "powered=false",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_y90"
+                    }
+                  },
+                  {
+                    "when": "powered=true",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_on_y90"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "when": "face=wall",
+              "model": {
+                "type": "minecraft:select",
+                "property": "custom_model_data",
+                "index": 3,
+                "cases": [
+                  {
+                    "when": "powered=false",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_x90_y90"
+                    }
+                  },
+                  {
+                    "when": "powered=true",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_on_x90_y90"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "facing=north",
+        "model": {
+          "type": "minecraft:select",
+          "property": "custom_model_data",
+          "index": 2,
+          "cases": [
+            {
+              "when": "face=ceiling",
+              "model": {
+                "type": "minecraft:select",
+                "property": "custom_model_data",
+                "index": 3,
+                "cases": [
+                  {
+                    "when": "powered=false",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_x180_y180"
+                    }
+                  },
+                  {
+                    "when": "powered=true",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_on_x180_y180"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "when": "face=floor",
+              "model": {
+                "type": "minecraft:select",
+                "property": "custom_model_data",
+                "index": 3,
+                "cases": [
+                  {
+                    "when": "powered=false",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever"
+                    }
+                  },
+                  {
+                    "when": "powered=true",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_on"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "when": "face=wall",
+              "model": {
+                "type": "minecraft:select",
+                "property": "custom_model_data",
+                "index": 3,
+                "cases": [
+                  {
+                    "when": "powered=false",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_x90"
+                    }
+                  },
+                  {
+                    "when": "powered=true",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_on_x90"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "facing=south",
+        "model": {
+          "type": "minecraft:select",
+          "property": "custom_model_data",
+          "index": 2,
+          "cases": [
+            {
+              "when": "face=ceiling",
+              "model": {
+                "type": "minecraft:select",
+                "property": "custom_model_data",
+                "index": 3,
+                "cases": [
+                  {
+                    "when": "powered=false",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_x180"
+                    }
+                  },
+                  {
+                    "when": "powered=true",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_on_x180"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "when": "face=floor",
+              "model": {
+                "type": "minecraft:select",
+                "property": "custom_model_data",
+                "index": 3,
+                "cases": [
+                  {
+                    "when": "powered=false",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_y180"
+                    }
+                  },
+                  {
+                    "when": "powered=true",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_on_y180"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "when": "face=wall",
+              "model": {
+                "type": "minecraft:select",
+                "property": "custom_model_data",
+                "index": 3,
+                "cases": [
+                  {
+                    "when": "powered=false",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_x90_y180"
+                    }
+                  },
+                  {
+                    "when": "powered=true",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_on_x90_y180"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "facing=west",
+        "model": {
+          "type": "minecraft:select",
+          "property": "custom_model_data",
+          "index": 2,
+          "cases": [
+            {
+              "when": "face=ceiling",
+              "model": {
+                "type": "minecraft:select",
+                "property": "custom_model_data",
+                "index": 3,
+                "cases": [
+                  {
+                    "when": "powered=false",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_x180_y90"
+                    }
+                  },
+                  {
+                    "when": "powered=true",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_on_x180_y90"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "when": "face=floor",
+              "model": {
+                "type": "minecraft:select",
+                "property": "custom_model_data",
+                "index": 3,
+                "cases": [
+                  {
+                    "when": "powered=false",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_y270"
+                    }
+                  },
+                  {
+                    "when": "powered=true",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_on_y270"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "when": "face=wall",
+              "model": {
+                "type": "minecraft:select",
+                "property": "custom_model_data",
+                "index": 3,
+                "cases": [
+                  {
+                    "when": "powered=false",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_x90_y270"
+                    }
+                  },
+                  {
+                    "when": "powered=true",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever_on_x90_y270"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
